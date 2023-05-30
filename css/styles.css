@@ -1,0 +1,228 @@
+:root {
+  --brand-color: #2e2f42;
+  --text-color: #434455;
+  --change-color: #404bbf;
+  --logo-color: #4d5ae5;
+  --foc-hov-text: #ffffff;
+  --bagr-btn: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--foc-hov-text);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*-------------------------HEADER------------------------------*/
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+.header-logo-text {
+  color: var(--brand-color);
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.address {
+  font-style: normal;
+}
+
+.header-soc-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.header-soc-link:focus,
+.header-soc-link:hover {
+  color: var(--change-color);
+}
+.header-soc-text:focus,
+.header-soc-text:hover {
+  color: var(--change-color);
+}
+
+.header-menu-link:focus,
+.header-menu-link:hover {
+  color: var(--change-color);
+}
+
+/*-------------------------------HERO------------------------*/
+
+.hero {
+  background-color: var(--brand-color);
+}
+
+.hero-tittle {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--foc-hov-text);
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--foc-hov-text);
+  background-color: var(--logo-color);
+  cursor: pointer;
+}
+
+.button:focus,
+.button:hover {
+  background-color: var(--change-color);
+}
+
+.hero-text-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--foc-hov-text);
+}
+
+/*------------------------------------SECTION ORDER-----------------------------------------*/
+
+.order-item-tittle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+.order-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*------------------------------------WHAT WE ARE DOING----------------------------*/
+
+.services-tittle {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-color);
+}
+
+/*--------------------------------------TEAM------------------------------------*/
+
+.team {
+  background-color: var(--bagr-btn);
+}
+.team-item {
+  background-color: var(--foc-hov-text);
+}
+.team-tittle {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-color);
+}
+
+.team-staff {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*----------------------------FOOTER---------------------------------*/
+
+.footer {
+  background: var(--brand-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+.footer-tittle {
+  color: var(--bagr-btn);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--bagr-btn);
+}
+
+/*!--------------------------------PORTFOLIO-------------------------------!*/
+
+/*?------------------------------MENU---------------------------*/
+
+.button-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--bagr-btn);
+  cursor: pointer;
+}
+
+.button-item:focus,
+.button-item:hover {
+  color: var(--foc-hov-text);
+  background-color: var(--change-color);
+}
+
+/*?------------------------------MAIN---------------------------*/
+
+.technologies-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.technologies-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
