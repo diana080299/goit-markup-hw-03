@@ -104,6 +104,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  padding: 24px 0;
 }
 .address {
   font-style: normal;
@@ -118,7 +119,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-soc-link:focus,
@@ -366,7 +366,7 @@ button {
 
 .team-portfolio {
   padding: 32px 16px;
-  border-right: 1px solid var(--border-color);
+  border-right: 1px solid #e7e9fc;
   border-top: none;
 }
 .portfol-list-item {
