@@ -5,6 +5,7 @@
   --logo-color: #4d5ae5;
   --foc-hov-text: #ffffff;
   --bagr-btn: #f4f4fd;
+  --border-color: #e7e9fc;
 }
 
 body {
@@ -32,9 +33,16 @@ h6 {
   margin-bottom: 0;
 }
 ul {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
 }
 .section {
   padding: 0 15px;
@@ -51,12 +59,11 @@ ul {
   display: flex;
   padding-top: 25.5px;
   border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
-
-  padding-bottom: 24px;
 }
 .header-nav {
   display: flex;
@@ -71,7 +78,6 @@ ul {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
-  padding-left: 156px;
 }
 .header-logo-text {
   color: var(--brand-color);
@@ -79,7 +85,6 @@ ul {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-menu-link {
   font-weight: 500;
@@ -100,6 +105,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  align-items: center;
 }
 
 .header-soc-link:focus,
@@ -124,6 +130,7 @@ ul {
   text-align: center;
   align-items: center;
   height: 600px;
+  padding: 188px 0;
 }
 
 .hero-tittle {
@@ -143,12 +150,12 @@ ul {
   background-color: var(--logo-color);
   cursor: pointer;
   margin: 0 auto;
-  display: flex;
+  display: block;
   background: #4d5ae5;
   border-radius: 4px;
+  border: none;
   align-items: center;
-  min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   padding: 16px 32px;
 }
 
@@ -167,11 +174,11 @@ ul {
 
 /*------------------------------------SECTION ORDER-----------------------------------------*/
 .order {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .order-list {
   display: flex;
-  margin-bottom: 120px;
+  gap: 24px;
 }
 
 .order-item-tittle {
@@ -181,6 +188,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-bottom: 8px;
 }
 
 .order-item-text {
@@ -192,11 +200,11 @@ ul {
 }
 .order-item {
   width: calc((100% - 72px) / 4);
-  gap: 24px;
 }
 
 /*------------------------------------WHAT WE ARE DOING----------------------------*/
 .services {
+  padding-bottom: 120px;
 }
 .services-tittle {
   font-size: 36px;
@@ -210,7 +218,6 @@ ul {
 .services-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 .services-item {
   display: flex;
@@ -220,6 +227,7 @@ ul {
 
 .team {
   background-color: var(--bagr-btn);
+  padding: 120px 0;
 }
 .team-list {
   display: flex;
@@ -252,16 +260,18 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-  margin-top: 32px;
+  text-align: center;
   margin-bottom: 8px;
 }
-
+.team-sub-text {
+  padding: 32px 16px;
+}
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  margin-bottom: 32px;
+  text-align: center;
 }
 
 /*----------------------------FOOTER---------------------------------*/
@@ -298,12 +308,15 @@ ul {
 /*!--------------------------------PORTFOLIO-------------------------------!*/
 
 /*?------------------------------MENU---------------------------*/
+.main-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .list-buton {
   display: flex;
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .item-button {
@@ -317,7 +330,7 @@ ul {
   color: var(--logo-color);
   background-color: var(--bagr-btn);
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
   border-radius: 4px;
   padding: 12px 24px;
 }
@@ -326,20 +339,24 @@ ul {
 .button-item:hover {
   color: var(--foc-hov-text);
   background-color: var(--change-color);
+  border: 1px solid transparent;
 }
 
 /*?------------------------------MAIN---------------------------*/
-.porfolio-conteiner {
+.list-portf-serv {
   display: flex;
   flex-wrap: wrap;
-  gap: 38px 24px;
-  padding-bottom: 120px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
+
 .team-portfolio {
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  padding: 0 54px 32px 16px;
+  padding: 32px 16px;
+  border-right: 1px solid var(--border-color);
+  border-top: none;
+}
+.portfol-list-item {
+  width: calc((100% - 48px) / 3);
 }
 .technologies-team {
   font-weight: 500;
