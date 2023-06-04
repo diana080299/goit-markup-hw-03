@@ -69,13 +69,12 @@ button {
 /*-------------------------HEADER------------------------------*/
 .header {
   display: flex;
-  padding-top: 25.5px;
   border-bottom: 1px solid #e7e9fc;
-  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header-nav {
   display: flex;
@@ -106,6 +105,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--brand-color);
   padding: 24px 0;
+  display: block;
 }
 .address {
   font-style: normal;
@@ -155,7 +155,7 @@ button {
   color: var(--foc-hov-text);
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -255,7 +255,6 @@ button {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   background-color: var(--foc-hov-text);
-  margin-bottom: 120px;
 }
 
 .team-tittle {
@@ -265,7 +264,6 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-color);
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
