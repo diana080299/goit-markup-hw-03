@@ -18,6 +18,9 @@ body {
 .link {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 p,
 h1,
 h2,
@@ -39,20 +42,20 @@ ul {
 }
 .container {
   width: 100%;
-  max-width: 1155px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 /*-------------------------HEADER------------------------------*/
 .header {
   display: flex;
   padding-top: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
+
   padding-bottom: 24px;
 }
 .header-nav {
@@ -76,6 +79,7 @@ ul {
 .header-menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-menu-link {
   font-weight: 500;
